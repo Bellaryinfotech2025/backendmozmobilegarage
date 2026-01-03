@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/issues")
-@CrossOrigin(origins = "http://localhost:5173")  
+@CrossOrigin(origins = "http://mozmobile.bellaryinfotech.com")  
 public class IssueController {
 
     @Autowired
